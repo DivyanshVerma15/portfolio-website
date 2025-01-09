@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F4EDD3;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: #A5BFCC;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    color: rgb(32, 21, 91);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    color: black;
+    font-size: 1.04rem;
+}
+
+nav .left{
+    font-size: 1.5rem;
+}
+
+.firstseciton{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 0;
+    align-items: center;
+    
+}
+
+.firstseciton > div{
+    width: 30%;
+}
+
+.leftsection{
+    font-size: 3rem;
+    color: #4C585B;
+    
+
+}
+
+.rightsection img{
+    width: 80%;
+}
+
+.name{
+    text-shadow: 3px 0 #7E99A3;
+}
+
+
+#element{
+    color: #7E99A3;
+    text-shadow: 2px 0 rgb(10, 13, 75);
+    
+    
+}
+
+.secondsection {
+    margin-left: 150px;
+    margin-top: 30px;
+    height: 80vh;
+}
+
+hr{
+     
+    border: 0;
+    margin: 40px 84px;
+    background-color: #A5BFCC;
+    height: 1.5px;
+    
+}
+
+.workExp{
+    color:#4C585B ;
+    font-weight: 80px;
+}
+
+.secondsection .box {
+    background-color: black;
+    width: 80%;
+    height: 2px;
+    margin: 120px 0;
+    display: flex;
+}
+
+.secondsection .box .vertical{
+    height: 90px;
+    width: 2px;
+    background-color: black;
+    margin: 0 140px;
+    
+    
+}
+
+.imageTop {
+    width: 160px;
+    position: relative;
+    top: -142px;
+    left: -77px;
+}
+
+.verticalTitle {
+    position: relative;
+    top: -72px;
+    left: -42px;
+    width: 150px;
+}
+
+.verticalDesc {
+    position: relative;
+    top: -67px;
+    width: 170px;
+    font-size: 13px;
+    left: -63px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(49, 80, 103);
+}
+
+.ending {
+    height: 25vh;
+    background-color: #A5BFCC;
+    padding: 32px;
+    border: 6px solid;
+}
+
+.first{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    position: relative;
+    top: 60px;
+    left: 30px;
+    
+}
+
+.horizontal-Line {
+    width: 102px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    top: -32px;
+    left: 222px;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    top: -76px;
+    left: 100px;
+}
+
+.hobby{
+    list-style:circle;
+    font-size: 15px;
+    width: 1000px;
+    margin: 30px 30px;
+    color: #4C585B;
+}
+
+h4 {
+    position: relative;
+    top: 24px;
+    left: -11px;
+    color: rgb(32, 41, 105);
+}
+
+
+.photo{
+    background-image: url(./developer.png);
+}
+
+
+
+
